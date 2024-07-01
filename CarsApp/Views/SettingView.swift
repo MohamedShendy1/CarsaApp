@@ -33,7 +33,7 @@ struct SettingView: View {
                             .font(.title)
                             .frame(width: 80, height: 80, alignment: .center)
                         
-                        Text("Cars App includes very important information about the luxutry cars, it has details about the history different models ")
+                        Text("Cars App includes very important information about the luxutry cars, it has details about the history different models ..")
                     }//: HStack
                 }//: Group box
                 
