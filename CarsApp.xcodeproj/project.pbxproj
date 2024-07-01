@@ -24,6 +24,7 @@
 		C9CDF1562B98BFF500892734 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CDF1552B98BFF500892734 /* HeaderView.swift */; };
 		C9CDF1582B98D22100892734 /* ModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CDF1572B98D22100892734 /* ModelsView.swift */; };
 		C9CDF15A2B98DAD300892734 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CDF1592B98DAD300892734 /* FooterView.swift */; };
+		E79773882C33116B00DC5BD2 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79773872C33116B00DC5BD2 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C9CDF1552B98BFF500892734 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C9CDF1572B98D22100892734 /* ModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsView.swift; sourceTree = "<group>"; };
 		C9CDF1592B98DAD300892734 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		E79773872C33116B00DC5BD2 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				C9CDF1452B97659A00892734 /* CarDats.swift */,
+				E79773872C33116B00DC5BD2 /* AppConstants.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79773882C33116B00DC5BD2 /* AppConstants.swift in Sources */,
 				C9CDF11C2B97565A00892734 /* OnboardingView.swift in Sources */,
 				C9CDF1562B98BFF500892734 /* HeaderView.swift in Sources */,
 				C9CDF1502B978ED900892734 /* CarCellView.swift in Sources */,

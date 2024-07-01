@@ -20,7 +20,7 @@ struct CarsListView: View {
                     }//: Navigation Link
                 }
             }//: List
-            .navigationTitle("Cars List")
+            .navigationTitle(AppCons.tx.carList)
             .navigationBarTitleDisplayMode(.large)
             .navigationBarItems(trailing: Button(action: {
                 isSheetViewPresented = true

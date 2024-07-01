@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct CarsAppApp: App {
     //Properties
-    @AppStorage ("isOnboarding") var isOnboarding: Bool = true
+    @AppStorage (AppCons.tx.isOnBoard) var isOnboarding: Bool = true
     
     //Body
     var body: some Scene {

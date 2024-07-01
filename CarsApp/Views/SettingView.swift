@@ -33,18 +33,18 @@ struct SettingView: View {
                             .font(.title)
                             .frame(width: 80, height: 80, alignment: .center)
                         
-                        Text("Cars App includes very important information about the luxutry cars, it has details about the history different models ..")
+                        Text(AppCons.tx.desc)
                     }//: HStack
                 }//: Group box
                 
                 // check Box
                 Toggle(isOn: $isOnboarding) {
                     if isOnboarding {
-                        Text("Restarted".uppercased())
+                        Text(AppCons.tx.restarted.uppercased())
                             .font(.title2)
                             .foregroundColor(.green)
                     }else {
-                        Text("Restart".uppercased())
+                        Text(AppCons.tx.restart.uppercased())
                             .font(.title2)
                             .foregroundColor(.gray)
                     }
@@ -55,7 +55,7 @@ struct SettingView: View {
                 Spacer()
                 
             }//: VStack
-            .navigationTitle("Settings")
+            .navigationTitle(AppCons.tx.settings)
             .navigationBarItems(trailing: Button(action: {
                 presentationMode.wrappedValue.dismiss()
             }, label: {

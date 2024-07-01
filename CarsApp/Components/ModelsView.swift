@@ -15,7 +15,7 @@ struct ModelsView: View {
     //Body
     var body: some View{
         GroupBox(){
-            DisclosureGroup ("Car Models"){
+            DisclosureGroup (AppCons.tx.models){
                 ForEach(0 ..< 7) { item in
                     Divider()
                     HStack{

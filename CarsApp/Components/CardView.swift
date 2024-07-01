@@ -41,7 +41,7 @@ struct CardView: View {
                 isOnboarding = false
             }, label: {
             Image(systemName: "arrow.right.circle")
-                Text("Start")
+                Text(AppCons.tx.start)
                     .font(.largeTitle)
             })
             .padding(.horizontal, 15)
