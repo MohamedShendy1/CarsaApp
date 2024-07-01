@@ -16,7 +16,7 @@ struct CarsListView: View {
                 ForEach(carData) { item in
                     NavigationLink(destination: DetailedCarView(car: item)) {
                         CarCellView(car:item)
-                            .padding(.vertical, 10)
+                            .padding(.vertical, 12)
                     }//: Navigation Link
                 }
             }//: List
