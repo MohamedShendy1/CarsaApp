@@ -37,11 +37,8 @@ struct DetailedCarView: View {
                     
                     
                     //Car Description
-<<<<<<< HEAD
-                    Text("More about\(car.title)")
-=======
+
                     Text("Learn More about\(car.title)")
->>>>>>> updateComponents
                         .font(.title2)
                         .foregroundColor(car.gradient[1])
                         .fontWeight(.bold)
